@@ -1,0 +1,11 @@
+
+.push {
+    height: 50px;
+}
+.footer{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: #666666;
+    margin-top: 250px;
+}
