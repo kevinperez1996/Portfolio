@@ -9,3 +9,32 @@
     background: #666666;
     margin-top: 250px;
 }
+.card{
+margin-top: 30px;
+}
+
+.comments-card{ 
+    margin-bottom: 30px;
+}
+
+.card-img{
+    height: 300px; 
+    width: 300px;
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.list{ 
+    margin-top: 40px;
+}
+
+.projects-btn {
+    margin-bottom: 15px;
+}
+
+.comments-btn{
+    margin-top: 15px;
+}
