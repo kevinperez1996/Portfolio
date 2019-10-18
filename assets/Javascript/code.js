@@ -45,6 +45,8 @@ $(".projects-btn").on("click", function (event) {
 
     var projects = $("<lu>").append(
 
+        $("<a class = 'list' href='https://github.com/kevinperez1996/Liri-App' target='_blank'>").text("Liri Node Application"),
+        $("<br>"),
         $("<a class = 'list' href='https://rrjethva.github.io/Eventbrite-Google-API/' target='_blank'>").text("Bravo Events - Group Project"),
         $("<br>"),
         $("<a class = 'list' href='https://kevinperez1996.github.io/Train-Schedule/' target='_blank'>").text("Train Scheduler"),
@@ -57,6 +59,7 @@ $(".projects-btn").on("click", function (event) {
         $("<br>"),
         $("<a class = 'list' href='https://kevinperez1996.github.io/Word-Guess-Game/' target='_blank'>").text("Artist Guessing Game"),
         $("<br>"),
+       
     );
 
     $(".more-projects").append(projects);
