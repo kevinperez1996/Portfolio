@@ -45,6 +45,8 @@ $(".projects-btn").on("click", function (event) {
 
     var projects = $("<lu>").append(
 
+        $("<a class = 'list' href='https://github.com/kevinperez1996/Bamazon-MySQL' target='_blank'>").text("Bamazon-MySQL"),
+        $("<br>"),
         $("<a class = 'list' href='https://github.com/kevinperez1996/Liri-App' target='_blank'>").text("Liri Node Application"),
         $("<br>"),
         $("<a class = 'list' href='https://rrjethva.github.io/Eventbrite-Google-API/' target='_blank'>").text("Bravo Events - Group Project"),
@@ -59,6 +61,7 @@ $(".projects-btn").on("click", function (event) {
         $("<br>"),
         $("<a class = 'list' href='https://kevinperez1996.github.io/Word-Guess-Game/' target='_blank'>").text("Artist Guessing Game"),
         $("<br>"),
+        
        
     );
 
