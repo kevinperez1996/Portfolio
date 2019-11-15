@@ -45,6 +45,8 @@ $(".projects-btn").on("click", function (event) {
 
     var projects = $("<lu>").append(
 
+        $("<a class = 'list' href='https://still-escarpment-18133.herokuapp.com/burger' target='_blank'>").text("Burger Fest!"),
+        $("<br>"),
         $("<a class = 'list' href='https://shrouded-brook-95001.herokuapp.com/' target='_blank'>").text("The Amazing Friend Finder"),
         $("<br>"),
         $("<a class = 'list' href='https://github.com/kevinperez1996/Bamazon-MySQL' target='_blank'>").text("Bamazon-MySQL"),
