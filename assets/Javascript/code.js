@@ -45,6 +45,8 @@ $(".projects-btn").on("click", function (event) {
 
     var projects = $("<lu>").append(
 
+        $("<a class = 'list' href='https://quiet-waters-80100.herokuapp.com/' target='_blank'>").text("Online Planner"),
+        $("<br>"),
         $("<a class = 'list' href='https://still-escarpment-18133.herokuapp.com/burger' target='_blank'>").text("Burger Fest!"),
         $("<br>"),
         $("<a class = 'list' href='https://shrouded-brook-95001.herokuapp.com/' target='_blank'>").text("The Amazing Friend Finder"),
