@@ -57,21 +57,6 @@
                             style="font-size:35px;color: white"></a>
                     </li>
                 </ul>
-
-                <!-- 
-                        <a class="nav-item nav-link active homeButton" href="index.html">Home <span
-                                class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link active portfolioButton" href="index.html">Portfolio <span
-                                class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link active contactButton" href="index.html">Contact <span
-                                class="sr-only">(current)</span></a>
-        
-        
-                        <a class="fa fa-github logos" href="https://github.com/kevinperez1996" target="_blank"
-                            style="font-size:35px;color: white"></a>
-        
-                        <a class="fa fa-linkedin-square logos" href="https://www.linkedin.com/in/kevin-perez-6171a3190/"
-                            target="_blank" style="font-size:35px;color: white"></a> -->
             </div>
         </div>
     </nav>
@@ -82,7 +67,7 @@
         <div class="row">
             <div class="col-sm">
                 <br>
-                <h3>Contact</h3>
+                <h3 id="containerTitle">Contact</h3>
                 <hr>
             </div>
         </div>
@@ -90,23 +75,25 @@
             <div class="col-sm">
                 <form>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Name</label>
-                        <input class="form-control" id="exampleFormControlTextarea1" placeholder="Kevin Perez"
+                        <label for="exampleFormControlTextarea1">Name *</label>
+                        <input class="form-control" id="contactName" placeholder="Kevin Perez"
                             rows="1"></input>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
+                        <label for="exampleInputEmail1">Email address *</label>
+                        <input type="email" class="form-control" id="contactEmail"
                             placeholder="Kevinperez996@outlook.com" aria-describedby="emailHelp">
                         <small id="emailHelp" class="form-text text-muted"></small>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Comments</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Comments"
+                        <textarea class="form-control" id="contactComments" placeholder="Comments"
                             rows="3"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <p id = "required"> * = field is required </p>
+                    <button id="contactSubmitButton" type="submit" class="btn btn-primary">Submit</button>
+                    <div id="thanks"></div>
                 </form>
             </div>
         </div>
@@ -132,6 +119,27 @@
     <div class="push"></div>
     </div>
     <footer class="footer"></footer>
+
+      <!-- Firebase Core JavaScript Link -->
+      <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+
+      <!-- Specific Firebase products we want -->
+      <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+  
+  
+      <script type="text/javascript" src="assets/Javascript/code.js"></script>
+  
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
 
 </body>
 
