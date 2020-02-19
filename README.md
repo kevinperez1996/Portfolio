@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal portfolio page, hosting personal achivements and projects. 
+Personal website dedicated to hosting my personal achivements and most recent projects. 
 
 ## Technologies Used
 
